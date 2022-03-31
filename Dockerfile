@@ -1,12 +1,15 @@
-# Tags: latest, 2.8.3-debian-10-r5, 2.8.3, 2-debian-10, 2
+# Tags: latest, 2.8.3-debian-10-r6, 2.8.3, 2-debian-10, 2
 FROM bitnami/spring-cloud-skipper:latest
-FROM bitnami/spring-cloud-skipper:2.8.3-debian-10-r5
+FROM bitnami/spring-cloud-skipper:2.8.3-debian-10-r6
 FROM bitnami/spring-cloud-skipper:2.8.3
 FROM bitnami/spring-cloud-skipper:2-debian-10
 FROM bitnami/spring-cloud-skipper:2
 
 # Tags: _
 FROM bitnami/spring-cloud-skipper:_
+
+# Tags: 2.8.3-debian-10-r5
+FROM bitnami/spring-cloud-skipper:2.8.3-debian-10-r5
 
 # Tags: 2.8.3-debian-10-r4
 FROM bitnami/spring-cloud-skipper:2.8.3-debian-10-r4
